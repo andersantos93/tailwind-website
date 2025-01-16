@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Insurance Agency</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
     <script>
       tailwind.config = {
         theme: {
@@ -19,10 +18,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/global.css">
   </head>
   <body>
+
     <section>
-      <div class="flex flex-col lg:flex-row px-20 h-[950px] bg-[#252B42]">
+      <div class="flex flex-col lg:flex-row gap-4 px-20 h-[750px] bg-[#252B42]">
         <div class="flex flex-col my-auto gap-5">
           <img class="mx-auto" src="./images/peace-of-mind.png" />
           <h5 class="mx-auto text-white font-bold">Peace of Mind</h5>
@@ -43,6 +44,51 @@
           <p class="text-center text-sm text-white">
             So it really behaves like neither. Now we have given up.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- First section of Industry -->
+    <section class="industry-1 py-5">
+      <h2 class="text-3xl text-center text-white font-bold mt-5">What Clients Say</h2>
+
+      <p
+          class="text-center mt-3 p-3 text-white"
+        >
+          Problems trying to resolve the conflict between <br />
+          the two major realms of Classical physics: Newtonian mechanics
+        </p>
+
+      <div class="flex flex-col lg:flex-row mt-[100px] gap-4 px-20 h-[auto] mb-5">
+        <div class="flex flex-col gap-5">
+          <div class="card bg-white p-5 rounded-md">
+            <h2 class="text-2xl font-semibold">Regina Miles</h2>
+            <span class="text-[#737373]">Designer</span>
+            <img src="./images/stars.png" class="mt-4">
+            <p
+              class="mt-3 text-[#737373]"
+            >
+              This proved to be impossible using the traditional concepts
+              of space and time. Einstein developed a new view of time
+              first and then space. This proved to be impossible using the
+              traditional concepts of space and time.
+            </p>  
+          </div>
+        </div>
+        <div class="flex flex-col gap-5">
+          <div class="card bg-white p-5 rounded-md">
+            <h2 class="text-2xl font-semibold">Regina Miles</h2>
+            <span class="text-[#737373]">Designer</span>
+            <img src="./images/stars.png" class="mt-4">
+            <p
+              class="mt-3 text-[#737373]"
+            >
+              This proved to be impossible using the traditional concepts
+              of space and time. Einstein developed a new view of time
+              first and then space. This proved to be impossible using the
+              traditional concepts of space and time.
+            </p>  
+          </div>
         </div>
       </div>
     </section>
