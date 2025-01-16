@@ -170,6 +170,10 @@
 
 .description-plan .list-group {
   grid-area: list-group;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
 }
 
 .description-plan a {
