@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Insurance Agency</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Montserrat"],
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <section>
+      <div class="flex flex-col lg:flex-row px-20 h-[950px] bg-[#252B42]">
+        <div class="flex flex-col my-auto gap-5">
+          <img class="mx-auto" src="./images/peace-of-mind.png" />
+          <h5 class="mx-auto text-white font-bold">Peace of Mind</h5>
+          <p class="text-center text-sm text-white">
+            So it really behaves like neither. Now we have given up.
+          </p>
+        </div>
+        <div class="flex flex-col my-auto gap-5">
+          <img class="mx-auto" src="./images/set-for-life.png" />
+          <h5 class="mx-auto text-white font-bold">Set for Life</h5>
+          <p class="text-center text-sm text-white">
+            They were used to create the machines that launched.
+          </p>
+        </div>
+        <div class="flex flex-col my-auto gap-5">
+          <img class="mx-auto" src="./images/satisfaction.png" />
+          <h5 class="mx-auto text-white font-bold">100% Satisfaction</h5>
+          <p class="text-center text-sm text-white">
+            So it really behaves like neither. Now we have given up.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
