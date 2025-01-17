@@ -235,7 +235,6 @@
   }
 
   .intro-background {
-    height: 700px;
     background-image: url("../images/intro-mobile.png");
   }
 
@@ -330,14 +329,8 @@
     gap: 25px;
   }
 
-  .intro .intro-background {
-    z-index: 1;
-    position: relative;
-    top: -130px;
-    max-width: 100%;
+  .intro-background {
     background-image: url("../images/intro-desktop.jpg");
-    height: 670px;
-    vertical-align: top; /* Prevent extra space */
   }
 
   .intro h1 {

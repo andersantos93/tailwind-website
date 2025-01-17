@@ -21,6 +21,103 @@
     <link rel="stylesheet" href="./styles/global.css" />
   </head>
   <body>
+    <section class="text-white intro-background">
+      <!-- Navbar -->
+      <nav class="bg-gray-800 md:bg-black md:bg-opacity-50">
+        <div
+          class="container mx-auto flex justify-between items-center py-4 px-6"
+        >
+          <a href="#" class="text-2xl font-bold">BrandName</a>
+
+          <div class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-blue-400 font-bold">Home</a>
+            <a href="#" class="hover:text-blue-400 font-bold">Product</a>
+            <a href="#" class="hover:text-blue-400 font-bold">Pricing</a>
+            <a href="#" class="hover:text-blue-400 font-bold">Contact</a>
+          </div>
+
+          <div class="hidden md:flex space-x-4">
+            <a href="#" class="text-sm hover:text-blue-400 font-bold mt-2"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="bg-[#23A6F0] text-white px-4 py-2 font-bold rounded-md text-sm hover:bg-blue-600"
+            >
+              Become a member
+            </a>
+          </div>
+
+          <div class="flex md:hidden space-x-4">
+            <button>
+              <img src="./images/search.png" alt="search" />
+            </button>
+            <button>
+              <img src="./images/shopping-cart.png" alt="" />
+            </button>
+            <label for="menu-toggle" class="cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </label>
+          </div>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="hidden peer" />
+        <div class="peer-checked:block hidden bg-gray-800 text-white md:hidden">
+          <nav class="flex flex-col items-center py-6 space-y-4">
+            <a href="#" class="hover:text-blue-400 font-bold">Home</a>
+            <a href="#" class="hover:text-blue-400 font-bold">Product</a>
+            <a href="#p" class="hover:text-blue-400 font-bold">Pricing</a>
+            <a href="#" class="hover:text-blue-400 font-bold">Contact</a>
+          </nav>
+        </div>
+      </nav>
+
+      <section class="relative bg-cover bg-center h-screen">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div
+          class="container mx-auto h-full flex flex-col justify-center items-center text-center text-white relative z-10 px-6"
+        >
+          <h1 class="text-4xl md:text-5xl font-black mb-10">
+            We Ensure A Best <br />
+            Insurance Service
+          </h1>
+          <p class="text-xl md:text-xl font-semibold mb-10">
+            We know how large objects will act, <br />
+            but things on a small scale just do not act that way.
+          </p>
+          <div
+            class="space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row"
+          >
+            <a
+              href="#"
+              class="bg-[#23A6F0] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600"
+            >
+              Get Quote Now
+            </a>
+            <a
+              href="#"
+              class="bg-gray-800 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-600"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+
     <section>
       <div class="flex flex-col lg:flex-row gap-4 px-20 h-[750px] bg-[#252B42]">
         <div class="flex flex-col my-auto gap-5">
@@ -582,21 +679,49 @@
         <!-- Social Icons -->
         <div class="flex space-x-4">
           <!-- Facebook -->
- <img src="./images/ant-design_facebook-filled.svg" alt="Facebook Mobile" class="w-6 h-6 md:hidden" />
- <img src="./images/facebookdesk.svg" alt="Facebook Desktop" class="w-6 h-6 hidden md:block" />
+          <img
+            src="./images/ant-design_facebook-filled.svg"
+            alt="Facebook Mobile"
+            class="w-6 h-6 md:hidden"
+          />
+          <img
+            src="./images/facebookdesk.svg"
+            alt="Facebook Desktop"
+            class="w-6 h-6 hidden md:block"
+          />
 
- <!-- Instagram -->
- <img src="./images/ant-design_instagram-outlined.svg" alt="Instagram Mobile" class="w-6 h-6 md:hidden" />
- <img src="./images/intstagramdesk.svg" alt="Instagram Desktop" class="w-6 h-6 hidden md:block" />
+          <!-- Instagram -->
+          <img
+            src="./images/ant-design_instagram-outlined.svg"
+            alt="Instagram Mobile"
+            class="w-6 h-6 md:hidden"
+          />
+          <img
+            src="./images/intstagramdesk.svg"
+            alt="Instagram Desktop"
+            class="w-6 h-6 hidden md:block"
+          />
 
- <!-- Twitter -->
- <img src="./images/ant-design_twitter-outlined.svg" alt="Twitter Mobile" class="w-6 h-6 md:hidden" />
- <img src="./images/twitterdesk.svg" alt="Twitter Desktop" class="w-6 h-6 hidden md:block" />
+          <!-- Twitter -->
+          <img
+            src="./images/ant-design_twitter-outlined.svg"
+            alt="Twitter Mobile"
+            class="w-6 h-6 md:hidden"
+          />
+          <img
+            src="./images/twitterdesk.svg"
+            alt="Twitter Desktop"
+            class="w-6 h-6 hidden md:block"
+          />
 
- <!-- Mobile-Only Icon (e.g., WhatsApp) -->
- <img src="./images/carbon_logo-youtube.svg" alt="Youtube Mobile" class="w-6 h-6 md:hidden" />
-       </div>
-     </div>
-   </footer>
+          <!-- Mobile-Only Icon (e.g., WhatsApp) -->
+          <img
+            src="./images/carbon_logo-youtube.svg"
+            alt="Youtube Mobile"
+            class="w-6 h-6 md:hidden"
+          />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
